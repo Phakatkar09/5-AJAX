@@ -4,7 +4,7 @@ $.ajax({
 url:"data.json",
 method:"GET",
 success:function(data){
-dataList = data.languages;
+dataList = data.dishes;
 }
 });
 $("#search").keyup(function(){
